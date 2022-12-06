@@ -1,8 +1,12 @@
-# In[2]:
+#!/usr/bin/env python
+# coding: utf-8
+
+import pandas as pd
+import numpy as np
+
 from utils.packages import *
 from utils.ml_fairness import *
 from utils.standard_data import *
-import pandas as pd
 
 # Load data
 train = pd.read_csv('train_fuzz_columns.csv')
